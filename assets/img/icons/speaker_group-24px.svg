@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="22" viewBox="0 0 16 22">
+  <g id="speaker_group-24px" transform="translate(-4 -1)">
+    <path id="Tracé_9" data-name="Tracé 9" d="M18.2,1H9.8A1.793,1.793,0,0,0,8,2.8V17.2A1.793,1.793,0,0,0,9.8,19h8.4A1.793,1.793,0,0,0,20,17.2V2.8A1.793,1.793,0,0,0,18.2,1ZM14,3a2,2,0,1,1-2,2A2.006,2.006,0,0,1,14,3Zm0,13.5a4,4,0,1,1,4-4A4.012,4.012,0,0,1,14,16.5Z" fill="#fff"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(11.5 10)" fill="#fff"/>
+    <path id="Tracé_10" data-name="Tracé 10" d="M6,5H4V21a2.006,2.006,0,0,0,2,2H16V21H6Z" fill="#fff"/>
+  </g>
+</svg>

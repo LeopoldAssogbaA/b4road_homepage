@@ -1,0 +1,401 @@
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    body {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background: #292828;
+        color: #fff;
+
+        //////////////////////////// HEADER //////////////////////////// 
+        header {
+            nav {
+                position: fixed !important;
+                background-color: #292828 !important;
+                z-index: 999 !important;
+                width: 100%;
+
+                .logoHeader {
+                    margin-left: 5rem;
+                    margin-bottom: 0.4rem;
+                }
+
+                @media (max-width: 768px) {
+                    .logoHeader {
+                        margin: 0;
+    
+                    }
+                }
+                h3 {
+                    font-family: 'Comfortaa', cursive;
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        //////////////////////////// MAIN //////////////////////////// 
+
+        main {
+            //////////////////////////// FIRST PART //////////////////////////// 
+            padding-top: 4rem;
+            .iconContainer {
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                margin-bottom: 3rem;
+            }
+
+            @media (max-width: 768px) {
+                .iconContainer {
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                }
+            }
+
+            .showImg {
+                background-image: url("/assets/img/IllustrationConcert.jpg");
+                background-position-x: -10rem;
+                background-position-y: -16rem;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 90vh;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .logoSlogan {
+                    margin-top: 5rem;
+
+                    .logo {
+                        width: 400px;
+                        max-width: 100%;
+                        padding: 0 2rem;
+                        margin: 3rem auto 0;
+                        @media (max-width: 768px) {
+                            width: 300px;
+                        }
+                        svg {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    
+                    
+                    .slogan {
+                        font-size: 1.6rem;
+                        font-weight: 400;
+                        text-shadow: 4px 4px 5px black;
+                        
+                        &:first-of-type {
+                            margin-bottom: -2rem;
+                        }
+                        
+                        .bigger {
+                            font-size: 3rem;
+                            font-weight: 600;
+                        }
+                    }
+
+                    @media (max-width: 768px) {
+                        .slogan {
+                            font-size: 1.2rem;
+                            font-weight: 400;
+
+                            &:first-of-type {
+                                margin-bottom: -1rem;
+                            }
+                           
+                            .bigger {
+                                font-size: 1.9rem;
+                                font-weight: 600;
+                            }
+                        }  
+                    }
+        
+                    @media (min-width: 768px) and (max-width: 992px) {
+                        .slogan {
+                            font-size: 1.4rem;
+                            font-weight: 400;
+
+                            .bigger {
+                                font-size: 2.5rem;
+                                font-weight: 600;
+                            }
+                        }  
+                    }
+
+                }
+
+                @media (max-width: 768px) {
+                    img.iconsRedBar {
+                        width: 5%;
+                    }
+                }
+            }
+
+            @media (max-width: 768px) {
+                .showImg {
+                    background-position-x: -10rem;
+                    background-position-y: -16rem;
+                    background-size: 360%;
+                }
+            }
+
+            @media (min-width: 768px) and (max-width: 992px) {
+                .showImg {
+                    background-position-x: -10rem;
+                    background-position-y: -16rem;
+                    background-size: 240%;
+                }
+            }
+
+            @media (min-width: 992px) and (max-width: 1200px) {
+                .showImg {
+                    background-position-x: -10rem;
+                    background-position-y: -16rem;
+                    background-size: 190%;
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .showImg {
+                    background-position-x: -10rem;
+                    background-position-y: -16rem;
+                    background-size: 140%;
+                }
+            }
+
+
+            .technicalImg {
+                background-image: url("/assets/img/eclairagiste-sur-scene.jpg");
+                background-position-x: 0rem;
+                background-position-y: -23rem;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 70vh;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+
+            @media (max-width: 768px) {
+                .technicalImg {
+                    background-position-x: -10rem;
+                    background-position-y: -16rem;
+                    background-size: 308%;
+                }
+            }
+
+            @media (min-width: 768px) and (max-width: 992px) {
+                .technicalImg {
+                    background-position-x: -10rem;
+                    background-position-y: -16rem;
+                    background-size: 240%;
+                }
+            }
+
+            @media (min-width: 992px) and (max-width: 1200px) {
+                .technicalImg {
+                    background-position-x: -10rem;
+                    background-position-y: -16rem;
+                    background-size: 190%;
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .technicalImg {
+                    background-position-x: -10rem;
+                    background-position-y: -19rem;
+                    background-size: 120%;
+                }
+            }
+
+            .dancingImg {
+                background-image: url("/assets/img/danseuse-contre-jour.jpg");
+                background-position-x: 0rem;
+                background-position-y: -11rem;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 70vh;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+
+            @media (max-width: 768px) {
+                .dancingImg {
+                    background-position-x: -9rem;
+                    background-position-y: -6rem;
+                    background-size: 235%;
+                }
+            }
+
+            @media (min-width: 768px) and (max-width: 992px) {
+                .dancingImg {
+                    background-position-x: -10rem;
+                    background-position-y: -16rem;
+                    background-size: 240%;
+                }
+            }
+
+            @media (min-width: 992px) and (max-width: 1200px) {
+                .dancingImg {
+                    background-position-x: -11rem;
+                    background-position-y: -7rem;
+                    background-size: 117%;
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .showImg {
+                    background-position-x: -10rem;
+                    background-position-y: -16rem;
+                    background-size: 140%;
+                }
+            }
+
+
+            .redBar {
+                width: 100%;
+                height: 3rem;
+                background-color: #c1272d;
+                display: flex;
+                justify-content: flex-end;
+
+                div {
+                    display: flex;
+                    justify-content: flex-end;
+
+                    h1.redBarText {
+                        margin-top: 0.5rem;
+                    }
+
+                    @media (max-width: 768px) {
+                        h1.redBarText {
+                            font-size: 1.2em;
+                            margin-top: 0.5rem;
+                        }
+                    }
+                }
+            }
+
+            .card-body.card-body-cascade.text-center.stylish-color-dark {
+                min-height: 11rem;
+            }
+
+            article.textContainer {
+                margin: 2rem;
+            }
+
+            .imgContainer {
+                margin: 1rem;
+
+                img.theaterImg {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .redBorder {
+                border: 3px solid #c02932;
+                border-radius: 3px;
+
+            }
+
+
+            .cardContainer {
+                margin: 2rem;
+            }
+
+        }
+
+        h1 {
+            font-family: 'Comfortaa', cursive;
+            font-size: 2em;
+            margin-bottom: 0;
+            font-weight: 900;
+            color: #fff;
+            text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+            position: relative;
+        }
+
+        h1:before {
+            z-index: -1;
+            content: " ";
+            position: absolute;
+            width: 100%;
+            height: 10000px;
+            left: 0;
+            bottom: 0.2em;
+        }
+
+        small {
+            font-weight: 100;
+        }
+
+        .annonce {
+            font-family: 'Raleway', sans-serif;
+            font-size: 1.4em;
+            margin: 2em auto;
+            line-height: 1.4;
+        }
+
+        .annonce b,
+        .annonce a {
+            font-family: 'Raleway', sans-serif;
+            background: #c1272d;
+            color: #fff;
+            display: inline-block;
+            padding: 0.25em 0.75em;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 100;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+
+            li {
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        hr {
+            border-top: 3px solid rgba(0, 0, 0, .1);
+        }
+    }
+    ul.text-left {
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+
+
+    
+        ul.card-text {
+            margin: 0;
+            li {
+                list-style: none;
+            }
+        }
+
+        .b4roadAndFriends {
+            width: 70%;
+            height: auto;
+        }
+    
+}
